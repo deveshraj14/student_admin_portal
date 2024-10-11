@@ -1,0 +1,73 @@
+/* App.css */
+
+/* Style the form */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input fields */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Radio buttons */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  label {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+  
+  /* Submit button */
+  .btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Link style */
+  span {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  span a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  span a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Align the radio button section */
+  div {
+    margin-top: 10px;
+  }
+  
